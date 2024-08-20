@@ -461,6 +461,10 @@ header {
   .pj-box:hover {
     transform: translateY(0px) !important;
   }
+
+  .pj-skill h3{
+    font-size:15px;
+  }
   .pj-skill p span {
     font-size: 10px;
   }
