@@ -280,7 +280,7 @@
 
           <!-- 프로젝트 2 디테일 -->
           <div id="pj-box2-detail">
-            <p>XXX</p>
+            <p>X</p>
           </div>
         </div>
 
@@ -365,7 +365,96 @@
 
           <!-- 프로젝트 3 디테일 -->
           <div id="pj-box3-detail">
-            <p>XXX</p>
+            <p>X</p>
+          </div>
+        </div>
+
+
+        <!-- 프로젝트 4 -->
+        <div
+            class="pj-box pj-box3"
+            data-aos="fade-in"
+            data-aos-duration="1500"
+          >
+            <div>
+              <div class="pj-img">
+                <img src="./img/travelDiary_main.png" />
+              </div>
+              <div class="pj-skill">
+                <h3>기술 스택</h3>
+                <p>
+                  <span>JavaScript</span><span>HTML5</span
+                  ><span>CSS3</span><span>Figma</span><span>XD</span>
+                </p>
+              </div>
+            </div>
+            <div class="pj-info">
+              <table>
+                <tr>
+                  <th>프로젝트 주제</th>
+                  <td>
+                    국내 여행 정보 사이트 브랜딩 (개인 프로젝트)
+                  </td>
+                </tr>
+                <tr>
+                  <th>프로젝트 명</th>
+                  <td>여행 일기</td>
+                </tr>
+                <tr>
+                  <th>프로젝트 설명</th>
+                  <td>
+                    국내의 여행지 소개와 여행지에 따른 행사나 이벤트를 알려주는
+                    사이트를 브랜딩하여 제작한 사이트 입니다.
+                  </td>
+                </tr>
+                <tr>
+                  <th>담당 작업</th>
+                  <td>
+                    개인 프로젝트로 전체 모든 작업을 혼자 진행 하였습니다.
+                  </td>
+                </tr>
+                <tr>
+                  <th>소감</th>
+                  <td>
+                    브랜딩을 처음 진행하다보니 주제선정, 설계, 작업을 혼자 진행하였고
+                    퍼블리싱 위주의 작업을 하였습니다.
+                  </td>
+                </tr>
+                <tr>
+                  <th>Web Site</th>
+                  <td>
+                    <a
+                      href="https://asxowns.github.io/travel_diary/"
+                      target="_blank"
+                      >https://asxowns.github.io/travel_diary/</a
+                    >
+                  </td>
+                  </tr>
+                  <tr>
+                    <th>Mobile Site</th>
+                  <td>
+                  <a href="https://url.kr/qsat7j" target="_blank">url.kr/qsat7j</a>
+                  </td>
+                </tr>
+                <tr>
+                  <th>Web Guide</th>
+                  <td><a href="./web_guide.html" target="_blank">web_guide.html</a></td>
+                </tr>
+                <tr>
+                  <th>BI&BX Guide</th>
+                  <td><a href="./bibx_guide.html" target="_blank">bibx_guide.html</a></td>
+                </tr>
+                <tr>
+                  <th>Mobile Guide</th>
+                  <td><a href="./mobile_guide.html" target="_blank">mobile_guide.html</a></td>
+                </tr>
+              </table>
+            </div>
+          </div>
+
+          <!-- 프로젝트 4 디테일 -->
+          <div id="pj-box4-detail">
+            <p>X</p>
           </div>
         </div>
 
@@ -388,16 +477,16 @@
     <script>
       document.addEventListener("DOMContentLoaded", () => {
         // 첫번째 프로젝트
-        // const element = document.querySelector(".pj-box1");
-        // const detail = document.getElementById("pj-box1-detail");
-        // if (element && detail) {
-        //   element.addEventListener('click', () => {
-        //     detail.style.display = "block";
-        //     requestAnimationFrame(() => {
-        //       detail.style.opacity = 1;
-        //     });
-        //   });
-        // }
+        //  const element = document.querySelector(".pj-box1");
+        //  const detail = document.getElementById("pj-box1-detail");
+        //  if (element && detail) {
+        //    element.addEventListener('click', () => {
+        //      detail.style.display = "block";
+        //      requestAnimationFrame(() => {
+        //        detail.style.opacity = 1;
+        //      });
+        //    });
+        //  }
 
         // 첫번째 프로젝트 디테일 닫기
         const close = document.querySelector("#pj-box1-detail p");
@@ -415,16 +504,16 @@
         }
 
         // 두번째 프로젝트
-        // const element2 = document.querySelector(".pj-box2");
-        // const detail2 = document.getElementById("pj-box2-detail");
-        // if (element2 && detail2) {
-        //   element2.addEventListener('click', () => {
-        //     detail2.style.display = "block";
-        //     requestAnimationFrame(() => {
-        //       detail2.style.opacity = 1;
-        //     });
-        //   });
-        // }
+        //  const element2 = document.querySelector(".pj-box2");
+        //  const detail2 = document.getElementById("pj-box2-detail");
+        //  if (element2 && detail2) {
+        //    element2.addEventListener('click', () => {
+        //      detail2.style.display = "block";
+        //      requestAnimationFrame(() => {
+        //        detail2.style.opacity = 1;
+        //      });
+        //    });
+        //  }
 
         // 두번째 프로젝트 디테일 닫기
         const close2 = document.querySelector("#pj-box2-detail p");
@@ -435,6 +524,60 @@
               "transitionend",
               () => {
                 detail2.style.display = "none";
+              },
+              { once: true }
+            );
+          });
+        }
+
+        // 세번째 프로젝트
+        //  const element3 = document.querySelector(".pj-box3");
+        //  const detail3 = document.getElementById("pj-box3-detail");
+        //  if (element3 && detail3) {
+        //    element3.addEventListener('click', () => {
+        //      detail3.style.display = "block";
+        //      requestAnimationFrame(() => {
+        //        detail3.style.opacity = 1;
+        //      });
+        //    });
+        //  }
+
+        // 세번째 프로젝트 디테일 닫기
+        const close3 = document.querySelector("#pj-box3-detail p");
+        if (close3 && detail3) {
+          close3.addEventListener("click", () => {
+            detail3.style.opacity = 0;
+            detail3.addEventListener(
+              "transitionend",
+              () => {
+                detail3.style.display = "none";
+              },
+              { once: true }
+            );
+          });
+        }
+
+        // 네번째 프로젝트
+        //  const element4 = document.querySelector(".pj-box4");
+        //  const detail4 = document.getElementById("pj-box4-detail");
+        //  if (element4 && detail4) {
+        //    element4.addEventListener('click', () => {
+        //      detail4.style.display = "block";
+        //      requestAnimationFrame(() => {
+        //        detail4.style.opacity = 1;
+        //      });
+        //    });
+        //  }
+
+        // 네번째 프로젝트 디테일 닫기
+        const close4 = document.querySelector("#pj-box4-detail p");
+        if (close4 && detail4) {
+          close4.addEventListener("click", () => {
+            detail4.style.opacity = 0;
+            detail4.addEventListener(
+              "transitionend",
+              () => {
+                detail4.style.display = "none";
               },
               { once: true }
             );

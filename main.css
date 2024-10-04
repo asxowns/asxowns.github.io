@@ -487,7 +487,9 @@ header {
 }
 
 #pj-box1-detail,
-#pj-box2-detail {
+#pj-box2-detail,
+#pj-box3-detail,
+#pj-box4-detail {
   display: none;
   opacity: 0;
   width: 800px;
@@ -504,13 +506,17 @@ header {
 }
 
 #pj-box1-detail.show,
-#pj-box2-detail.show {
+#pj-box2-detail.show,
+#pj-box3-detail.show,
+#pj-box4-detail.show {
   display: block;
   opacity: 1;
 }
 
 #pj-box1-detail p,
-#pj-box2-detail p {
+#pj-box2-detail p,
+#pj-box3-detail p,
+#pj-box4-detail p {
   font-size: 30px;
   cursor: pointer;
   text-align: right;

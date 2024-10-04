@@ -1,0 +1,17 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body{
+  background: #eee;
+}
+div{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+
+}
+div img{
+  display: block;
+}
